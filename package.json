@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Roll N dice from the command line",
   "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "bin": {
     "dice": "dist/cli.js"
   },
@@ -11,14 +16,25 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "npm run build && node --test test/*.test.js"
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "dice",
-    "cli"
+    "cli",
+    "npx",
+    "typescript"
   ],
-  "author": "",
+  "author": "arucraft2022 <arucraft2022@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arucraft2022/dice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arucraft2022/dice/issues"
+  },
+  "homepage": "https://github.com/arucraft2022/dice#readme",
   "devDependencies": {
     "@types/node": "^25.8.0",
     "typescript": "^6.0.3"
