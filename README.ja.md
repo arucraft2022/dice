@@ -6,6 +6,9 @@
 
 コマンドラインでサイコロ（1〜6）をN個振るCLIツール。
 
+- GitHub: https://github.com/arucraft2022/dice
+- npm: https://www.npmjs.com/package/@arucraft2022/nd6
+
 インストールせずに一時実行する場合:
 
 ```bash

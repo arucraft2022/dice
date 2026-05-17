@@ -6,6 +6,9 @@
 
 A command-line tool that rolls N six-sided dice.
 
+- GitHub: https://github.com/arucraft2022/dice
+- npm: https://www.npmjs.com/package/@arucraft2022/nd6
+
 Temporary execution without installation:
 
 ```bash
