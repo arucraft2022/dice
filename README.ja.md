@@ -1,4 +1,4 @@
-# @arucraft2022/dice — 仕様書
+# nd6 — 仕様書
 
 [English](README.md)
 
@@ -7,7 +7,7 @@
 コマンドラインでサイコロ（1〜6）をN個振るCLIツール。
 
 ```bash
-npx @arucraft2022/dice <number> [options]
+npx nd6 <number> [options]
 ```
 
 ---
@@ -16,13 +16,13 @@ npx @arucraft2022/dice <number> [options]
 
 | コマンド | 動作 |
 |---|---|
-| `npx @arucraft2022/dice` | ヘルプ表示（英語） |
-| `npx @arucraft2022/dice help` | ヘルプ表示（英語） |
-| `npx @arucraft2022/dice help --ja` | ヘルプ表示（日本語） |
-| `npx @arucraft2022/dice <1〜9>` | ダイスをN個表示 |
-| `npx @arucraft2022/dice <0以下・10以上・文字列>` | エラーアラート表示 |
+| `npx nd6` | ヘルプ表示（英語） |
+| `npx nd6 help` | ヘルプ表示（英語） |
+| `npx nd6 help --ja` | ヘルプ表示（日本語） |
+| `npx nd6 <1〜9>` | ダイスをN個表示 |
+| `npx nd6 <0以下・10以上・文字列>` | エラーアラート表示 |
 
-インストール後の実行コマンド名は `dice` のままです。
+インストール後の実行コマンド名は `nd6` です。
 
 ---
 

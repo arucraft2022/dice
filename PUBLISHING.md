@@ -2,9 +2,8 @@
 
 ## Current status
 
-- The unscoped package name `dice` is already registered on npm.
-- The package is now configured to publish as `@arucraft2022/dice`.
-- `publishConfig.access` is set to `public` for scoped package publishing.
+- The unscoped package name `nd6` is available on npm.
+- The package is currently configured locally as `nd6`.
 - Package metadata now includes `author`, `repository`, `bugs`, `homepage`, `main`, and `types`.
 - `prepublishOnly` runs the test suite before publish.
 
