@@ -2,8 +2,9 @@
 
 ## Current status
 
-- The unscoped package name `nd6` is available on npm.
-- The package is currently configured locally as `nd6`.
+- The unscoped package name `nd6` is blocked by npm name similarity checks.
+- The package is configured to publish as `@arucraft2022/nd6`.
+- `publishConfig.access` is set to `public` for scoped publishing.
 - Package metadata now includes `author`, `repository`, `bugs`, `homepage`, `main`, and `types`.
 - `prepublishOnly` runs the test suite before publish.
 
@@ -12,7 +13,8 @@
 1. Run `npm test`.
 2. Run `npm pack --dry-run`.
 3. Run `npm login`.
-4. Run `npm publish`.
+4. Run `npm whoami` and confirm `arucraft2022`.
+5. Run `npm publish --access=public`.
 
 ## Verified package contents
 

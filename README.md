@@ -6,8 +6,16 @@
 
 A command-line tool that rolls N six-sided dice.
 
+Temporary execution without installation:
+
 ```bash
-npx nd6 <number> [options]
+npx @arucraft2022/nd6 <number> [options]
+```
+
+After installation, run:
+
+```bash
+nd6 <number> [options]
 ```
 
 ---
@@ -16,13 +24,14 @@ npx nd6 <number> [options]
 
 | Command | Behavior |
 |---|---|
-| `npx nd6` | Show help in English |
-| `npx nd6 help` | Show help in English |
-| `npx nd6 help --ja` | Show help in Japanese |
-| `npx nd6 <1-9>` | Roll and display N dice |
-| `npx nd6 <0 or less / 10 or more / text>` | Show an error |
+| `npx @arucraft2022/nd6` | Run without installation |
+| `nd6` | Show help in English |
+| `nd6 help` | Show help in English |
+| `nd6 help --ja` | Show help in Japanese |
+| `nd6 <1-9>` | Roll and display N dice |
+| `nd6 <0 or less / 10 or more / text>` | Show an error |
 
-The installed executable name is `nd6`.
+The installed executable name remains `nd6`.
 
 ---
 

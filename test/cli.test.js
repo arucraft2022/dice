@@ -12,13 +12,13 @@ function run(args) {
 test('shows English help with no args', () => {
   const result = run([]);
   assert.equal(result.status, 0);
-  assert.match(result.stdout, /Usage: npx nd6 <number> \[options\]/);
+  assert.match(result.stdout, /Usage: nd6 <number> \[options\]/);
 });
 
 test('shows Japanese help with help --ja', () => {
   const result = run(['help', '--ja']);
   assert.equal(result.status, 0);
-  assert.match(result.stdout, /使い方: npx nd6 <number> \[options\]/);
+  assert.match(result.stdout, /使い方: nd6 <number> \[options\]/);
 });
 
 test('rejects invalid number', () => {

@@ -1,5 +1,5 @@
 {
-  "name": "nd6",
+  "name": "@arucraft2022/nd6",
   "version": "1.0.0",
   "description": "Roll N dice from the command line",
   "type": "commonjs",
@@ -35,6 +35,9 @@
     "url": "https://github.com/arucraft2022/dice/issues"
   },
   "homepage": "https://github.com/arucraft2022/dice#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/node": "^25.8.0",
     "typescript": "^6.0.3"
