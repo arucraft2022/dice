@@ -24,13 +24,13 @@ const BOX_PATTERNS = [
 const MESSAGES: Record<Lang, { usage: string[] }> = {
   en: {
     usage: [
-      'Usage: npx dice <number> [options]',
+      'Usage: npx @arucraft2022/dice <number> [options]',
       '',
       'Commands:',
-      '  npx dice                Show help (English)',
-      '  npx dice help           Show help (English)',
-      '  npx dice help --ja      Show help (Japanese)',
-      '  npx dice <1-9>          Roll N dice',
+      '  npx @arucraft2022/dice                Show help (English)',
+      '  npx @arucraft2022/dice help           Show help (English)',
+      '  npx @arucraft2022/dice help --ja      Show help (Japanese)',
+      '  npx @arucraft2022/dice <1-9>          Roll N dice',
       '',
       'Options:',
       '  --label     Show labels under each die',
@@ -41,13 +41,13 @@ const MESSAGES: Record<Lang, { usage: string[] }> = {
   },
   ja: {
     usage: [
-      '使い方: npx dice <number> [options]',
+      '使い方: npx @arucraft2022/dice <number> [options]',
       '',
       'コマンド:',
-      '  npx dice                ヘルプを表示（英語）',
-      '  npx dice help           ヘルプを表示（英語）',
-      '  npx dice help --ja      ヘルプを表示（日本語）',
-      '  npx dice <1-9>          N個のダイスを振る',
+      '  npx @arucraft2022/dice                ヘルプを表示（英語）',
+      '  npx @arucraft2022/dice help           ヘルプを表示（英語）',
+      '  npx @arucraft2022/dice help --ja      ヘルプを表示（日本語）',
+      '  npx @arucraft2022/dice <1-9>          N個のダイスを振る',
       '',
       'オプション:',
       '  --label     ダイスの下にラベルを表示',

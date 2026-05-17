@@ -1,4 +1,4 @@
-# npx dice — 仕様書
+# @arucraft2022/dice — 仕様書
 
 [English](README.md)
 
@@ -7,7 +7,7 @@
 コマンドラインでサイコロ（1〜6）をN個振るCLIツール。
 
 ```bash
-npx dice <number> [options]
+npx @arucraft2022/dice <number> [options]
 ```
 
 ---
@@ -16,11 +16,13 @@ npx dice <number> [options]
 
 | コマンド | 動作 |
 |---|---|
-| `npx dice` | ヘルプ表示（英語） |
-| `npx dice help` | ヘルプ表示（英語） |
-| `npx dice help --ja` | ヘルプ表示（日本語） |
-| `npx dice <1〜9>` | ダイスをN個表示 |
-| `npx dice <0以下・10以上・文字列>` | エラーアラート表示 |
+| `npx @arucraft2022/dice` | ヘルプ表示（英語） |
+| `npx @arucraft2022/dice help` | ヘルプ表示（英語） |
+| `npx @arucraft2022/dice help --ja` | ヘルプ表示（日本語） |
+| `npx @arucraft2022/dice <1〜9>` | ダイスをN個表示 |
+| `npx @arucraft2022/dice <0以下・10以上・文字列>` | エラーアラート表示 |
+
+インストール後の実行コマンド名は `dice` のままです。
 
 ---
 

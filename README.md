@@ -1,4 +1,4 @@
-# npx dice — Specification
+# @arucraft2022/dice — Specification
 
 [日本語版](README.ja.md)
 
@@ -7,7 +7,7 @@
 A command-line tool that rolls N six-sided dice.
 
 ```bash
-npx dice <number> [options]
+npx @arucraft2022/dice <number> [options]
 ```
 
 ---
@@ -16,11 +16,13 @@ npx dice <number> [options]
 
 | Command | Behavior |
 |---|---|
-| `npx dice` | Show help in English |
-| `npx dice help` | Show help in English |
-| `npx dice help --ja` | Show help in Japanese |
-| `npx dice <1-9>` | Roll and display N dice |
-| `npx dice <0 or less / 10 or more / text>` | Show an error |
+| `npx @arucraft2022/dice` | Show help in English |
+| `npx @arucraft2022/dice help` | Show help in English |
+| `npx @arucraft2022/dice help --ja` | Show help in Japanese |
+| `npx @arucraft2022/dice <1-9>` | Roll and display N dice |
+| `npx @arucraft2022/dice <0 or less / 10 or more / text>` | Show an error |
+
+The installed executable name remains `dice`.
 
 ---
 
